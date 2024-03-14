@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interviewed Candidates</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'r1styles.css' %}">
+    <script src="{% static 'r1script.js' %}"></script>
+</head>
+<body>
+<h1>Interviewed Candidates</h1>
+<div id="candidate-list">
+    {% for candidate in candidates %}
+    <div class="candidate-card">
+        <h3>{{ candidate.firstname }}</h3>
+        <button class="result-button" onclick="viewCandidateResult('{{ candidate.id }}')">See Result</button>
+    </div>
+    {% endfor %}
+</div>
+</body>
+</html>

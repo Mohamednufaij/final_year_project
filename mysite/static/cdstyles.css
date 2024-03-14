@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.result-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.candidate-name {
+    text-align: center;
+}
+
+.candidate-details {
+    margin-bottom: 20px;
+}
+
+.resume-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.questionnaire-results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.questionnaire-results th, .questionnaire-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.personality-details h3, .twitter-personality h3 {
+    margin-top: 20px;
+}
+
+.personality-details h4, .twitter-personality h4 {
+    margin-top: 10px;
+}
+
+/* Add any additional styling as needed */
+
